@@ -52,7 +52,7 @@ status InitReadyQ(ReadyQ *rq)
 	return OK;
 }
 
-//冒泡排序，key是到达时间。参数分别是保存进程的结构体数组和进程数
+//冒泡排序，排序的key是到达时间。参数分别是保存进程的结构体数组和进程数
 void sort_pcb(PCBptr *tmparr,int num)
 {
 
